@@ -17,6 +17,12 @@ a {
   text-decoration: none;
   color: #999;
 }
+
+.page-links {
+  text-decoration: none;
+  color: rgb(10, 46, 250);
+}
+
 a:hover {
   color: #6633ff;
 }
@@ -70,7 +76,7 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid rgb(3, 3, 3);
   transition: all .5s;
 }
 header .profile-image2 {
@@ -79,11 +85,23 @@ header .profile-image2 {
   height: 170px;
   border-radius: 50%;
   border: 3px solid white;
-  transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(360deg);
 }
+
+main .under-construction{
+  margin-top: 50px;
+  display: block;  
+  margin-left: auto;  
+  margin-right: auto;  
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid rgb(5, 5, 5);
+}
+
 .tag {
   background-color: #efefef;
   color: black;
